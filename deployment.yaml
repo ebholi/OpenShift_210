@@ -21,7 +21,7 @@ spec:
         ports:
         - containerPort: 8080
           protocol: TCP
-        image: ghcr.io/<Github-Username>/html-openshift-app:v1
+        image: ghcr.io/ebholi/html-openshift-app:v1
         imagePullPolicy: Always
 ---
 kind: Service
